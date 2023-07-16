@@ -26,6 +26,9 @@ already been shown so that duplicate images are not displayed.
 Finally, the function sets the x and y axis ticks to be empty and sets the title of the plot to title.
 Note that this function does not actually display the plot; it only sets it up. To display the plot,
 you would need to call plt.show() after calling this function.
+
+
+
 The first Dimensionality Reduction technique used in this assignment, Principal Component
 Analysis (PCA), is as follows:
 X_pca = decomposition.PCA(n_components=2).fit_transform(X)
